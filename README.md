@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌬️ MotoAR
+#  MotoAR
 
 ### Monitoramento e Previsão da Qualidade do Ar em Brasília
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📖 Sobre o projeto
+##  Sobre o projeto
 
 O **MotoAR** investiga a qualidade do ar no Distrito Federal a partir de duas
 fontes complementares:
@@ -29,18 +29,18 @@ O fluxo completo cobre **ingestão → limpeza → EDA → modelagem → visuali
 entregando um relatório técnico em PDF, um dashboard web responsivo e um
 modelo preditivo de PM2.5.
 
-## ✨ Destaques
+##  Destaques
 
 | | |
 |---|---|
-| 🧹 **Pipeline de dados** | Limpeza, validação de status e tratamento de outliers em duas fontes heterogêneas |
-| 📊 **EDA aprofundada** | Sazonalidade, padrões horários, heatmap hora × mês, efeito da chuva, correlações |
-| 🤖 **Modelo preditivo** | XGBoost (com fallback para GradientBoosting) — **MAE 2.64 µg/m³, R² 0.834** |
-| 🖥️ **Dashboard React** | Gráficos interativos com Recharts, modo claro/escuro e visualização desktop/mobile |
-| 📄 **Relatório em PDF** | Exportação automática do relatório completo direto do dashboard via `html2pdf.js` |
-| 🔁 **Reprodutível** | Dados brutos, dados limpos, modelo `.pkl` e JSON agregado versionados no repo |
+|  **Pipeline de dados** | Limpeza, validação de status e tratamento de outliers em duas fontes heterogêneas |
+|  **EDA aprofundada** | Sazonalidade, padrões horários, heatmap hora × mês, efeito da chuva, correlações |
+|  **Modelo preditivo** | XGBoost (com fallback para GradientBoosting) — **MAE 2.64 µg/m³, R² 0.834** |
+|  **Dashboard React** | Gráficos interativos com Recharts, modo claro/escuro e visualização desktop/mobile |
+|  **Relatório em PDF** | Exportação automática do relatório completo direto do dashboard via `html2pdf.js` |
+|  **Reprodutível** | Dados brutos, dados limpos, modelo `.pkl` e JSON agregado versionados no repo |
 
-## 👥 Integrantes
+##  Integrantes
 
 | Nome | |
 |------|---|
@@ -50,7 +50,7 @@ modelo preditivo de PM2.5.
 | Giovanna | |
 | Rafael M. | |
 
-## 🧱 Arquitetura
+##  Arquitetura
 
 ```
 ┌──────────────────┐    ┌──────────────────┐
@@ -78,7 +78,7 @@ modelo preditivo de PM2.5.
                          └──────────────────┘
 ```
 
-## 📂 Estrutura do repositório
+##  Estrutura do repositório
 
 ```
 projeto-integrador-motoar/
@@ -109,7 +109,7 @@ projeto-integrador-motoar/
     └── package.json
 ```
 
-## 🗂️ Dados utilizados
+##  Dados utilizados
 
 | Fonte | Registros | Cobertura | Variáveis principais |
 |-------|-----------|-----------|----------------------|
@@ -122,7 +122,7 @@ A limpeza descarta registros com `Status PM25` inválido, aplica clipes de
 faixa para reduzir outliers de sensores e classifica cada registro por
 estação climática (**Chuva** / **Seca** / **Transição**).
 
-## 🤖 Modelo preditivo
+##  Modelo preditivo
 
 Treinado em `build_data.py` sobre os dados INMET tratados.
 
@@ -145,7 +145,7 @@ pm25_lag1 · pm25_lag3 · pm25_roll3 · rain_acc6 · no2 · co
 A importância das features e amostras de previsão vs real ficam
 serializadas em `data_export.json` e são exibidas no dashboard.
 
-## 🚀 Como executar
+##  Como executar
 
 ### 0. Pré-requisitos
 
@@ -282,7 +282,7 @@ streamlit run motoar_app.py      # ou motoar_app2.py
 
 Acesse **http://localhost:8501**.
 
-### ✅ Checklist rápido
+###  Checklist rápido
 
 - [ ] Python 3.10+ e Node 18+ instalados
 - [ ] Repositório clonado
@@ -291,9 +291,9 @@ Acesse **http://localhost:8501**.
 - [ ] `python build_data.py`
 - [ ] (se rodou o pipeline) `cp data_export.json motoar-web/src/data.json`
 - [ ] `cd motoar-web && npm install && npm run dev`
-- [ ] Abrir **http://localhost:5173** 🎉
+- [ ] Abrir **http://localhost:5173** 
 
-### 🛟 Troubleshooting
+###  Troubleshooting
 
 | Problema | Solução |
 |----------|---------|
@@ -317,7 +317,7 @@ Acesse **http://localhost:8501**.
   hora, mês) e poluentes correlatos (NO₂, CO) explicam bem a variância de
   PM2.5.
 
-## 📦 Entregáveis
+##  Entregáveis
 
 - `data/EDA + LCA + Cruzamentos.pdf` — análise exploratória completa.
 - `data/motoar_relatorio_completo.pdf` — relatório final consolidado.
@@ -325,12 +325,12 @@ Acesse **http://localhost:8501**.
 - `motoar-web/` — dashboard interativo.
 - `data/xgb_model.pkl` — modelo treinado pronto para uso.
 
-## 🛠️ Stack
+##  Stack
 
 **Backend / Dados:** Python · pandas · NumPy · scikit-learn · XGBoost · openpyxl
 **Frontend:** React 19 · TypeScript · Vite · Recharts · lucide-react · html2pdf.js
 
-## 📜 Licença
+##  Licença
 
 Uso acadêmico. Os dados brutos pertencem ao **INMET** e à **IQAir** e estão
 incluídos apenas para fins de reprodução do trabalho.
@@ -339,6 +339,6 @@ incluídos apenas para fins de reprodução do trabalho.
 
 <div align="center">
 
-*Projeto Integrador · Brasília · 2025*
+*Projeto Integrador · Brasília · 2026*
 
 </div>
