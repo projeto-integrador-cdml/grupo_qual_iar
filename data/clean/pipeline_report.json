@@ -1,0 +1,86 @@
+{
+  "run_at": "2026-04-20T21:35:15.747116",
+  "outputs": {
+    "iqair": "data\\clean\\iqair_clean.csv"
+  },
+  "iqair": {
+    "dataset": "iqair",
+    "run_at": "2026-04-20T21:35:15.748111",
+    "elapsed_s": 0.31,
+    "steps": [
+      {
+        "step": "Drop datetime inválido",
+        "before": 36301,
+        "after": 36301,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "0 timestamps nulos"
+      },
+      {
+        "step": "Drop status inválido (aqi_category)",
+        "before": 36301,
+        "after": 36063,
+        "removed": 238,
+        "pct_removed": 0.66,
+        "detail": "valores: ['não encontrado']"
+      },
+      {
+        "step": "Nullify out-of-range: aqi",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "range [0, 500] — 0 valores → NaN"
+      },
+      {
+        "step": "Nullify out-of-range: pm25",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "range [0, 500] — 0 valores → NaN"
+      },
+      {
+        "step": "Nullify out-of-range: temperature",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "range [-10, 60] — 0 valores → NaN"
+      },
+      {
+        "step": "Nullify out-of-range: humidity",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "range [0, 100] — 0 valores → NaN"
+      },
+      {
+        "step": "Nullify out-of-range: wind_speed",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "range [0, 200] — 0 valores → NaN"
+      },
+      {
+        "step": "Drop duplicatas",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": ""
+      },
+      {
+        "step": "Detecção sensor travado (flag)",
+        "before": 36063,
+        "after": 36063,
+        "removed": 0,
+        "pct_removed": 0.0,
+        "detail": "32255 registros marcados com sensor_frozen=1"
+      }
+    ],
+    "total_removed": 238
+  }
+}
