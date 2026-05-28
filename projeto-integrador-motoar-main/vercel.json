@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd motoar-web && npm install && npm run build",
-  "outputDirectory": "motoar-web/dist"
-}
