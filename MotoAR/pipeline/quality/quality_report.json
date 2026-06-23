@@ -1,0 +1,128 @@
+{
+  "run_at": "2026-06-23T15:11:28.196829",
+  "has_critical_fail": false,
+  "summary": {
+    "total": 16,
+    "ok": 16,
+    "warnings": 0,
+    "critical": 0
+  },
+  "results": {
+    "inmet": [
+      {
+        "expectation": "não_nulo_pm25",
+        "column": "pm25",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% não-nulos (mínimo 90%)"
+      },
+      {
+        "expectation": "range_pm25",
+        "column": "pm25",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 500]"
+      },
+      {
+        "expectation": "range_temp",
+        "column": "temp",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [5, 45]"
+      },
+      {
+        "expectation": "range_rh",
+        "column": "rh",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 100]"
+      },
+      {
+        "expectation": "range_no2",
+        "column": "no2",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 300]"
+      },
+      {
+        "expectation": "range_co",
+        "column": "co",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 20]"
+      },
+      {
+        "expectation": "nao_duplicado",
+        "column": "—",
+        "passed": true,
+        "severity": "ok",
+        "detail": "0 duplicatas detectadas"
+      },
+      {
+        "expectation": "frozen_sensor_pct",
+        "column": "sensor_frozen",
+        "passed": true,
+        "severity": "ok",
+        "detail": "média=0.000 (máx=0.4)"
+      },
+      {
+        "expectation": "pm25_media_razoavel",
+        "column": "pm25",
+        "passed": true,
+        "severity": "ok",
+        "detail": "média=11.55 (esperado [0,100])"
+      },
+      {
+        "expectation": "n_minimo_registros",
+        "column": "—",
+        "passed": true,
+        "severity": "ok",
+        "detail": "8,280 linhas (mínimo 1,000)"
+      }
+    ],
+    "iqair": [
+      {
+        "expectation": "não_nulo_aqi",
+        "column": "aqi",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% não-nulos (mínimo 90%)"
+      },
+      {
+        "expectation": "range_aqi",
+        "column": "aqi",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 500]"
+      },
+      {
+        "expectation": "range_pm25_iq",
+        "column": "pm25",
+        "passed": true,
+        "severity": "ok",
+        "detail": "100.0% dentro de [0, 500]"
+      },
+      {
+        "expectation": "nao_duplicado",
+        "column": "—",
+        "passed": true,
+        "severity": "ok",
+        "detail": "0 duplicatas detectadas"
+      },
+      {
+        "expectation": "frozen_sensor_pct",
+        "column": "sensor_frozen",
+        "passed": true,
+        "severity": "ok",
+        "detail": "média=0.894 (máx=0.9)"
+      },
+      {
+        "expectation": "n_minimo_registros",
+        "column": "—",
+        "passed": true,
+        "severity": "ok",
+        "detail": "36,063 linhas (mínimo 5,000)"
+      }
+    ]
+  }
+}

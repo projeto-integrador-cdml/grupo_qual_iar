@@ -1,0 +1,11 @@
+{
+  "fonte": "iqair",
+  "arquivo_origem": "C:\\Users\\aless\\Downloads\\grupo_qual_iar-main\\MotoAR\\pipeline\\..\\data\\raw\\iqair_data.csv",
+  "arquivo_bronze": "C:\\Users\\aless\\Downloads\\grupo_qual_iar-main\\MotoAR\\pipeline\\data\\bronze\\fonte=iqair\\data=2026-06-23\\iqair_data.csv",
+  "data_ingestao": "2026-06-23T15:10:39.613925",
+  "particao_data": "2026-06-23",
+  "tamanho_kb": 5606.3,
+  "md5": "fbb95d70d3d04c11cb7973c729b71b8b",
+  "schema_enforcement": false,
+  "camada": "bronze"
+}

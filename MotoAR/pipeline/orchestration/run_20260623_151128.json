@@ -1,0 +1,28 @@
+{
+  "run_at": "2026-06-23T15:11:28.385036",
+  "total_time": 49.02,
+  "success": 4,
+  "failed": 0,
+  "tasks": [
+    {
+      "id": "t1_bronze_ingest",
+      "status": "success",
+      "duration": 0.41
+    },
+    {
+      "id": "t2_silver_transform",
+      "status": "success",
+      "duration": 15.13
+    },
+    {
+      "id": "t3_gold_build",
+      "status": "success",
+      "duration": 31.76
+    },
+    {
+      "id": "t4_quality_check",
+      "status": "success",
+      "duration": 1.72
+    }
+  ]
+}
