@@ -25,8 +25,13 @@
 | Alessandra Souza Gonçalves | [@alessandra2307](https://github.com/alessandra2307) |
 | Vitor Nascimento | [@VitorFranco721](https://github.com/VitorFranco721) |
 | Rodrigo Lin | [@rodrigolinss](https://github.com/rodrigolinss) |
-| Giovanna | [@giovannafbarbosa](https://github.com/giovannafbarbosa) |
+| Giovanna Barbosa | [@giovannafbarbosa](https://github.com/giovannafbarbosa) |
 | Rafael Mascarenhas | [@Rafafelbrown](https://github.com/Rafafelbrown) |
+
+---
+
+## 🏫 Informações Acadêmicas
+
 **Orientador:** Prof. Weslley Rodrigues  
 **Curso:** Ciência de Dados e Machine Learning  
 **Instituição:** Centro Universitário de Brasília — UniCEUB  
