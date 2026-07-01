@@ -94,6 +94,7 @@ O projeto entrega um **pipeline de dados completo com arquitetura medalhão (Bro
               │  Streamlit / React  │
               └─────────────────────┘
 ```
+![Arquitetura-da-Plataforma](https://github.com/projeto-integrador-cdml/grupo_qual_iar/blob/main/Arquiteura%20MotoAr.png)
 
 ---
 
